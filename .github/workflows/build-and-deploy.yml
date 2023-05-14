@@ -14,6 +14,7 @@ env:
 #  AZURE_CLIENT_ID: "secrets"
 #  AZURE_CONTAINER_REGISTRY_PASSWORD: "secrets"
 
+
 on:
   push:
     branches: [ "master" ]
