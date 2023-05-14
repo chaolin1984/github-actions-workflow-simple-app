@@ -1,11 +1,11 @@
 name: Build and Deploy to Azure
 
 env:
-  AZURE_CONTAINER_REGISTRY_NAME: "lindak8scontregis"  # set this to the name of your Azure Container Registry
-  AZURE_CONTAINER_REGISTRY: "lindak8scontregis.azurecr.io"
+  AZURE_CONTAINER_REGISTRY_NAME: "lindacicddemocr"  # set this to the name of your Azure Container Registry
+  AZURE_CONTAINER_REGISTRY: "lindacicddemocr.azurecr.io"
   CONTAINER_NAME: "hello-world"
-  RESOURCE_GROUP: "cidi-demo-rg"
-  CLUSTER_NAME: "linda-k8s"
+  RESOURCE_GROUP: "cicd-demo-rg"
+  CLUSTER_NAME: "linda-cicd-aks"
   DEPLOYMENT_MANIFEST_PATH: "kubernetes"
 
 # Retrive below secrets from GitHub Actions Secrets
