@@ -37,11 +37,11 @@ jobs:
         uses: Azure/docker-login@v1
         with:
           # Container registry username
-          username: ${{ env.AZURE_CONTAINER_REGISTRY_NAME }}
+          username: 'lindacicddemocr'
           # Container registry password
-          password: ${{ secrets.AZURE_CONTAINER_REGISTRY_PASSWORD }}
+          password: 'fuAtuTg6vfg/LmI7f0FZfCAT51YPWAFR4Rx0Fv3PrF+ACRDluu6S'
           # Container registry server url
-          login-server: ${{ env.AZURE_CONTAINER_REGISTRY }}
+          login-server: 'lindacicddemocr.azurecr.io'
 
 #      - name: Lowercase the repo name and username
 #        run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
